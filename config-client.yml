@@ -4,4 +4,5 @@ eureka:
   instance:
     prefer-ip-address: true
   client:
-    service-url: http://eureka01:8888/eureka/
+    service-url: 
+      defaultZone: http://eureka01:8888/eureka/
