@@ -1,0 +1,7 @@
+server:
+  port: 6888
+eureka:
+  instance:
+    prefer-ip-address: true
+  client:
+    service-url: http://eureka01:8888/eureka/
